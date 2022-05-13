@@ -1,0 +1,209 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "code-runner.runInTerminal": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "[jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.fontFamily": "'Cascadia Code light',Consolas, 'Courier New'",
+    "editor.fontLigatures": true,
+    // "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "workbench.startupEditor": "none",
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.editor.enablePreview": false,
+    "quokka.showCodeLensInOutputChannel": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "javascript.inlayHints.enumMemberValues.enabled": true,
+    "editor.suggest.preview": true,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorWidth": 2,
+    "editor.tokenColorCustomizations": {
+      "[Monokai]": {
+        "functions": "#66ff00",
+        "variables": "#fffefe",
+        "strings": "#ffee00e8",
+        "numbers": "#0062ff",
+        "textMateRules": [
+          {
+            "scope": "entity.name.tag",
+            "settings": {
+              "foreground": "#ff006a"
+            }
+          },
+          {
+            "scope": "entity.other.attribute-name",
+            "settings": {
+              "foreground": "#66ff00"
+            }
+          },
+        ]
+      },
+      "[Material Theme Ocean High Contrast]": {
+        "textMateRules": [
+          {
+            "scope": "string",
+            "settings": {
+              "foreground": "#a2eb81",
+            }
+          },
+          {
+            "scope": "constant.numeric",
+            "settings": {
+              "foreground": "#ff7b00",
+            }
+          },
+          {
+            "scope": "comment",
+            "settings": {
+              "foreground": "#7c7a78",
+            }
+          },
+          {
+            "scope": "entity.name.tag",
+            "settings": {
+              "foreground": "#ff6666",
+            }
+          },
+          {
+            "scope": "entity.other.attribute-name",
+            "settings": {
+              "foreground": "#ff00ff",
+            }
+          },
+          {
+            "scope": "keyword.operator",
+            "settings": {
+              "foreground": "#33ccff",
+            }
+          },
+          {
+            "scope": "keyword.operator.assignment",
+            "settings": {
+              "foreground": "#33ccff",
+            }
+          },
+          {
+            "scope": "variable",
+            "settings": {
+              "foreground": "#33ffd3",
+            }
+          },
+          {
+            "scope": "variable.other.readwrite",
+            "settings": {
+              "foreground": "#ffff00",
+            }
+          },
+          {
+            "scope": "entity.name.function",
+            "settings": {
+              "foreground": "#3333ff",
+            }
+          },
+        ]
+      },
+    },
+    "workbench.colorCustomizations": {
+      "[Material Theme Ocean High Contrast]": {},
+      "sash.hoverBorder": "#d2e76d",
+      "editorLineNumber.foreground": "#bdb9b9"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "todohighlight.keywords": [
+      "DEBUG:",
+      "REVIEW:",
+      {
+        "text": "comment",
+        "color": "#fff",
+        "backgroundColor": "blue",
+        "borderRadius": "2px",
+        "isWholeLine": false,
+      },
+      {
+        "text": "concept",
+        "color": "#fff",
+        "backgroundColor": "green",
+        "borderRadius": "2px",
+        "isWholeLine": false,
+      },
+    ],
+    "vsicons.dontShowNewVersionMessage": true,
+    "http.systemCertificates": false,
+    "editor.accessibilitySupport": "off",
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "cSpell.userWords": [
+      "apikey",
+      "bglightness",
+      "Bhilai",
+      "Bibhu",
+      "blogpost",
+      "Boxicons",
+      "browsersync",
+      "Chhattisgarh",
+      "colorlightness",
+      "detete",
+      "documention",
+      "exphbs",
+      "fogra",
+      "hashedkey",
+      "Hoverable",
+      "Icecreams",
+      "Icomoon",
+      "IIFE",
+      "Kriti",
+      "Kumar",
+      "Lalit",
+      "Madani",
+      "Noteitem",
+      "Odisha",
+      "Prasad",
+      "railwind",
+      "reduxjs",
+      "Rohit",
+      "Rourkela",
+      "signin",
+      "tailwindcss",
+      "vite"
+    ],
+    "workbench.colorTheme": "Deepdark Material Theme | Full Black Version",
+    "liveServer.settings.port": 5502,
+    "css.format.spaceAroundSelectorSeparator": true,
+    "[scss]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": 1.9,
+    "workbench.sideBar.location": "right",
+    "git.enableSmartCommit": true,
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveSassCompile.settings.formats": [
+      {
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "/css"
+      }
+    ]
+  }

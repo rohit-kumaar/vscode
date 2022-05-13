@@ -1,0 +1,16 @@
+Auto Rename Tag
+Code Spell Checker
+CodeSnap
+Deepdark Material Theme
+ES7+ React/Redux/React-Native snippets
+IntelliSense for CSS class names in HTML
+JavaScript (ES6) code snippets
+Live Sass Compiler (Glenn Marks)
+Live Server
+Mintlify Doc
+Prettier - Code formatter
+Quokka.js
+TabOut
+Thunder Client
+TODO Highlight
+vscode-icons
