@@ -45,18 +45,13 @@
   },
   "Add Event Listener": {
     "prefix": "add",
-    "body": ["$1.addEventListener(\"$2\", () => {", "  $3", "});"],
+    "body": ["$1.addEventListener(\"$2\", function(e) {", "  $3", "});"],
     "description": "Get EventListener"
   },
   "const variable": {
     "prefix": "c",
     "body": ["const  $1 =  $2; "],
     "description": "Get const variable "
-  },
-  "Function": {
-    "prefix": "fn",
-    "body": ["function $el($1) {", "\t$0", "}", "$el($2);"],
-    "description": "Function structure"
   },
   "calling Function": {
     "prefix": "cb",
@@ -77,5 +72,14 @@
     "prefix": "Link",
     "body": ["  <Link to=\"#\">$1</Link>"],
     "description": "React Link Tag"
+  },
+  "comment": {
+    "prefix": "",
+    "body": [
+      "/* ------------------- */",
+      "/* Reset               */",
+      "/* ------------------- */"
+    ],
+    "description": "comment"
   }
 }

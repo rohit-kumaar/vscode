@@ -1,0 +1,34 @@
+{
+  "Border red": {
+    "prefix": "bdr",
+    "body": ["border: 1px solid red;"],
+    "description": "Border red"
+  },
+  "Border green": {
+    "prefix": "bdg",
+    "body": ["border: 1px solid green;"],
+    "description": "Border green"
+  },
+  "Reset": {
+    "prefix": "reset",
+    "body": [
+      "*,",
+      "*::after,",
+      "*::before {",
+      "  padding: 0;",
+      "  margin: 0;",
+      "  box-sizing: border-box;",
+      "}"
+    ],
+    "description": "Reset CSS"
+  },
+  "comment": {
+    "prefix": "",
+    "body": [
+      "/* ------------------- */",
+      "/* Reset               */",
+      "/* ------------------- */"
+    ],
+    "description": "comment"
+  }
+}

@@ -130,5 +130,14 @@
     "prefix": "px",
     "body": [" padding-inline: $1;"],
     "description": "Padding in x-axis"
+  },
+  "comment": {
+    "prefix": "",
+    "body": [
+      "/* ------------------- */",
+      "/* Reset               */",
+      "/* ------------------- */"
+    ],
+    "description": "comment"
   }
 }

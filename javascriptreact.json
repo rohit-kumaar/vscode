@@ -1,0 +1,31 @@
+{
+  "console": {
+    "prefix": "co",
+    "body": ["console.log(`%cDebugger`, `color:red`,$1)"],
+    "description": "console"
+  },
+  "Link": {
+    "prefix": "Link",
+    "body": ["  <Link to=\"#\">$1</Link>"],
+    "description": "React Link Tag"
+  },
+  "NavLink": {
+    "prefix": "NavLink",
+    "body": ["  <NavLink to=\"#\">$1</NavLink>"],
+    "description": "React NavLink Tag"
+  },
+  "Image Tag": {
+    "prefix": "imgtag",
+    "body": ["<img loading=\"lazy\" src={$1} alt=\"$2\" title=\"$3\"/>"],
+    "description": "Image Tag"
+  },
+  "comment": {
+    "prefix": "",
+    "body": [
+      "/* ------------------- */",
+      "/* Reset               */",
+      "/* ------------------- */"
+    ],
+    "description": "comment"
+  }
+}
