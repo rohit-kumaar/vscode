@@ -132,7 +132,7 @@
     "description": "Padding in x-axis"
   },
   "comment": {
-    "prefix": "",
+    "prefix": "comment",
     "body": [
       "/* ------------------- */",
       "/* Reset               */",

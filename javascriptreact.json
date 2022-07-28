@@ -20,7 +20,7 @@
     "description": "Image Tag"
   },
   "comment": {
-    "prefix": "",
+    "prefix": "comment",
     "body": [
       "/* ------------------- */",
       "/* Reset               */",

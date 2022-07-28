@@ -23,7 +23,7 @@
     "description": "Reset CSS"
   },
   "comment": {
-    "prefix": "",
+    "prefix": "comment",
     "body": [
       "/* ------------------- */",
       "/* Reset               */",

@@ -74,7 +74,7 @@
     "description": "React Link Tag"
   },
   "comment": {
-    "prefix": "",
+    "prefix": "comment",
     "body": [
       "/* ------------------- */",
       "/* Reset               */",
