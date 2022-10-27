@@ -139,5 +139,21 @@
       "/* ------------------- */"
     ],
     "description": "comment"
-  }
+  },
+	"Breakpoint": {
+		"prefix": "breakpoint",
+		"body": [
+			"@include media-breakpoint-up(sm) {",
+			"}",
+			"@include media-breakpoint-up(md) {",
+			"}",
+			"@include media-breakpoint-up(lg) {",
+			"}",
+			"@include media-breakpoint-up(xl) {",
+			"}",
+			"@include media-breakpoint-up(xxl) {",
+			"}"
+		],
+		"description": "Bootstrap Breakpoint"
+	}
 }
