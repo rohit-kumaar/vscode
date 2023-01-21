@@ -1,159 +1,196 @@
 {
-  "Reset": {
-    "prefix": "reset",
-    "body": [
-      "html {",
-      "  box-sizing: border-box;",
-      "  font-size: 16px;",
-      "}",
-      "",
-      "*,",
-      "*::before,",
-      "*::after {",
-      "  padding: 0;",
-      "  margin: 0;",
-      "  outline: 0;",
-      "  border: 0;",
-      "  appearance: none;",
-      "  list-style: none;",
-      "  box-sizing: inherit;",
-      "}",
-      "",
-      "body {",
-      "  background: hsl(0, 0%, 100%);",
-      "  color: hsl(0, 0%, 0%);",
-      "  font-family: \"Montserrat\", sans-serif;;",
-      "  font-weight: 400;",
-      "}",
-      "",
-      "body,",
-      "h1,",
-      "h2,",
-      "h3,",
-      "h4,",
-      "h5,",
-      "h6,",
-      "p,",
-      "ol,",
-      "ul,",
-      "figure,",
-      "blockquote {",
-      "  padding: 0;",
-      "  margin: 0;",
-      "}",
-      "",
-      "a {",
-      "  text-decoration: none;",
-      "}",
-      "",
-      "ol,",
-      "ul {",
-      "  cursor: pointer;",
-      "}",
-      "",
-      "img {",
-      "  width: 100%;",
-      "  height: auto;",
-      "}",
-      "",
-      "input,",
-      "button,",
-      "textarea,",
-      "select {",
-      "  font: inherit;",
-      "}",
-      ""
-    ],
-    "description": "Reset HTML Elements"
-  },
-  "Border red": {
-    "prefix": "bdr",
-    "body": ["border: 0.1rem solid red;"],
-    "description": "Border red"
-  },
-  "Border green": {
-    "prefix": "bdg",
-    "body": ["border: 0.1rem solid green;"],
-    "description": "Border green"
-  },
-  "Border yellow": {
-    "prefix": "bdy",
-    "body": ["border: 0.1rem solid yellow;"],
-    "description": "Border yellow"
-  },
-  "Root Element": {
-    "prefix": "r",
-    "body": ["rem($1)"],
-    "description": "Root Element Snippets"
-  },
-  "Flex": {
-    "prefix": "flex",
-    "body": [
-      " display: flex;",
-      " align-items: center;",
-      " justify-content: center;"
-    ],
-    "description": "Center The Element Using Flex"
-  },
-  "Grid": {
-    "prefix": "grid",
-    "body": [" display: grid;", " place-items: center;"],
-    "description": "Center The Element Using Grid"
-  },
-  "Container": {
-    "prefix": "container",
-    "body": [
-      ".container {",
-      "  width: min(100%, 1000px);",
-      "  padding-inline: 1rem;",
-      "  margin-inline: auto;",
-      "}"
-    ],
-    "description": "Set Layout Using Container"
-  },
-  "Margin top and bottom": {
-    "prefix": "my",
-    "body": [" margin-block: $1;"],
-    "description": "Margin in y-axis"
-  },
-  "Margin left and right": {
-    "prefix": "mx",
-    "body": [" margin-inline: $1;"],
-    "description": "Margin in x-axis"
-  },
-  "Padding top and bottom": {
-    "prefix": "py",
-    "body": [" padding-block: $1;"],
-    "description": "Padding in y-axis"
-  },
-  "Padding left and right": {
-    "prefix": "px",
-    "body": [" padding-inline: $1;"],
-    "description": "Padding in x-axis"
-  },
-  "comment": {
-    "prefix": "comment",
-    "body": [
-      "/* ------------------- */",
-      "/* Reset               */",
-      "/* ------------------- */"
-    ],
-    "description": "comment"
-  },
-	"Breakpoint": {
-		"prefix": "breakpoint",
+	"Reset": {
+	  "prefix": "reset",
+	  "body": [
+		"html {",
+		"  box-sizing: border-box;",
+		"  font-size: 16px;",
+		"}",
+		"",
+		"*,",
+		"*::before,",
+		"*::after {",
+		"  padding: 0;",
+		"  margin: 0;",
+		"  outline: 0;",
+		"  border: 0;",
+		"  appearance: none;",
+		"  list-style: none;",
+		"  box-sizing: inherit;",
+		"}",
+		"",
+		"body {",
+		"  background: hsl(0, 0%, 100%);",
+		"  color: hsl(0, 0%, 0%);",
+		"  font-family: \"Montserrat\", sans-serif;;",
+		"  font-weight: 400;",
+		"}",
+		"",
+		"body,",
+		"h1,",
+		"h2,",
+		"h3,",
+		"h4,",
+		"h5,",
+		"h6,",
+		"p,",
+		"ol,",
+		"ul,",
+		"figure,",
+		"blockquote {",
+		"  padding: 0;",
+		"  margin: 0;",
+		"}",
+		"",
+		"a {",
+		"  text-decoration: none;",
+		"}",
+		"",
+		"ol,",
+		"ul {",
+		"  cursor: pointer;",
+		"}",
+		"",
+		"img {",
+		"  width: 100%;",
+		"  height: auto;",
+		"}",
+		"",
+		"input,",
+		"button,",
+		"textarea,",
+		"select {",
+		"  font: inherit;",
+		"}",
+		""
+	  ],
+	  "description": "Reset HTML Elements"
+	},
+	"Border red": {
+	  "prefix": "bdr",
+	  "body": ["border: 1px solid red;"],
+	  "description": "Border red"
+	},
+	"Border green": {
+	  "prefix": "bdg",
+	  "body": ["border: 1px solid green;"],
+	  "description": "Border green"
+	},
+	"Border yellow": {
+	  "prefix": "bdy",
+	  "body": ["border: 1px solid yellow;"],
+	  "description": "Border yellow"
+	},
+	"Root Element": {
+	  "prefix": "r",
+	  "body": ["rem($1)"],
+	  "description": "Root Element Snippets"
+	},
+	"Container": {
+	  "prefix": "container",
+	  "body": [
+		".container {",
+		"  width: min(100%, 1000px);",
+		"  padding-inline: 1rem;",
+		"  margin-inline: auto;",
+		"}"
+	  ],
+	  "description": "Set Layout Using Container"
+	},
+	"Margin top and bottom": {
+	  "prefix": "my",
+	  "body": [" margin-block: $1;"],
+	  "description": "Margin in y-axis"
+	},
+	"Margin left and right": {
+	  "prefix": "mx",
+	  "body": [" margin-inline: $1;"],
+	  "description": "Margin in x-axis"
+	},
+	"Padding top and bottom": {
+	  "prefix": "py",
+	  "body": [" padding-block: $1;"],
+	  "description": "Padding in y-axis"
+	},
+	"Padding left and right": {
+	  "prefix": "px",
+	  "body": [" padding-inline: $1;"],
+	  "description": "Padding in x-axis"
+	},
+	"comment": {
+	  "prefix": "comment",
+	  "body": [
+		"/* ------------------- */",
+		"/* Reset               */",
+		"/* ------------------- */"
+	  ],
+	  "description": "comment"
+	},
+	  "sm": {
+		  "prefix": "sm",
+		  "body": [
+			  "@include media-breakpoint-up(sm) {",
+			  "$1",
+			  "}",
+		  ],
+		  "description": "Breakpoint sm"
+	  },
+	  "md": {
+		  "prefix": "md",
+		  "body": [
+			  "@include media-breakpoint-up(md) {",
+			  "$1",
+			  "}",
+		  ],
+		  "description": "Breakpoint md"
+	  },
+	  "lg": {
+		  "prefix": "lg",
+		  "body": [
+			  "@include media-breakpoint-up(lg) {",
+			  "$1",
+			  "}",
+		  ],
+		  "description": "Breakpoint lg"
+	  },
+	  "xl": {
+		  "prefix": "xl",
+		  "body": [
+			  "@include media-breakpoint-up(xl) {",
+			  "$1",
+			  "}",
+		  ],
+		  "description": "Breakpoint xl"
+	  },
+	  "mobile": {
+		"prefix": "mobile",
 		"body": [
-			"@include media-breakpoint-up(sm) {",
-			"}",
-			"@include media-breakpoint-up(md) {",
-			"}",
-			"@include media-breakpoint-up(lg) {",
-			"}",
-			"@include media-breakpoint-up(xl) {",
-			"}",
-			"@include media-breakpoint-up(xxl) {",
-			"}"
+		  "@include mobile {",
+		  "$1",
+		  "}"
 		],
-		"description": "Bootstrap Breakpoint"
-	}
-}
+		"description": "mobile"
+	  },
+
+	  "tablet": {
+		"prefix": "tablet",
+		"body": [
+		  "@include tablet {",
+		  "$1",
+		  "}"
+		],
+		"description": "tablet"
+	  },
+
+	  "laptop": {
+		"prefix": "laptop",
+		"body": [
+		  "@include laptop {",
+		  "$1",
+		  "}"
+		],
+		"description": "laptop"
+	  }
+
+
+  }
