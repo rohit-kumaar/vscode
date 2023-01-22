@@ -181,7 +181,15 @@
 		],
 		"description": "tablet"
 	  },
-
+	  "largeTablet": {
+		"prefix": "largeTablet",
+		"body": [
+		  "@include largeTablet {",
+		  "$1",
+		  "}"
+		],
+		"description": "largeTablet"
+	  },
 	  "laptop": {
 		"prefix": "laptop",
 		"body": [
@@ -191,6 +199,4 @@
 		],
 		"description": "laptop"
 	  }
-
-
   }
