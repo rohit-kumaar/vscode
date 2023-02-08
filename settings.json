@@ -1,166 +1,64 @@
 {
   "files.autoSave": "afterDelay",
   "editor.wordWrap": "on",
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.iconTheme": "vscode-icons",
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "editor.fontFamily": "'cascadia code Light',Consolas, 'Courier New'",
   "editor.fontLigatures": true,
-  // "editor.formatOnType": true,
   "editor.formatOnSave": true,
   "workbench.startupEditor": "none",
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
   "workbench.editor.enablePreview": false,
-  "quokka.showCodeLensInOutputChannel": false,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
   "javascript.inlayHints.enumMemberValues.enabled": true,
   "editor.suggest.preview": true,
   "editor.cursorBlinking": "expand",
   "editor.cursorWidth": 2,
-  "editor.tokenColorCustomizations": {
-    "[Monokai]": {
-      "functions": "#66ff00",
-      "variables": "#fffefe",
-      "strings": "#ffee00e8",
-      "numbers": "#0062ff",
-      "textMateRules": [
-        {
-          "scope": "entity.name.tag",
-          "settings": {
-            "foreground": "#ff006a"
-          }
-        },
-        {
-          "scope": "entity.other.attribute-name",
-          "settings": {
-            "foreground": "#66ff00"
-          }
-        },
-      ]
-    },
-  },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "git.autofetch": true,
   "git.confirmSync": false,
-  "vsicons.dontShowNewVersionMessage": true,
   "http.systemCertificates": false,
   "editor.accessibilitySupport": "off",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "cSpell.userWords": [
-    "apikey",
-    "Avenir",
-    "bglightness",
-    "Bhilai",
-    "Bibhu",
-    "blogpost",
-    "Boxicons",
-    "browsersync",
-    "Chhattisgarh",
-    "colorlightness",
-    "detete",
-    "documention",
-    "exphbs",
-    "Firstname",
-    "fogra",
-    "Formik",
-    "hashedkey",
-    "Hoverable",
-    "Icecreams",
-    "Icomoon",
-    "IIFE",
-    "Kriti",
-    "Kumar",
-    "Lalit",
-    "Lastname",
-    "Madani",
-    "Noteitem",
-    "Odisha",
-    "Prasad",
-    "railwind",
-    "reduxjs",
-    "regd",
-    "Rohit",
-    "Rourkela",
-    "shiprazor",
-    "signin",
-    "tailwindcss",
-    "vite"
-  ],
   "css.format.spaceAroundSelectorSeparator": true,
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "git.enableSmartCommit": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.fontFamily": "'cascadia code light',Consolas, 'Courier New', monospace",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
+  "editor.linkedEditing": true,
+  "workbench.iconTheme": "material-icon-theme",
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.zoomLevel": 1.9,
-  "workbench.sideBar.location": "right",
-  "git.enableSmartCommit": true,
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "liveSassCompile.settings.formats": [
-    {
-      "format": "expanded",
-      "extensionName": ".css",
-      "savePath": "/css"
-    }
+  "cSpell.userWords": [
+    "chartjs",
+    "esbenp",
+    "formik",
+    "reduxjs",
+    "Rohit"
   ],
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "editor.language.colorizedBracketPairs": [
-    [
-      "[",
-      "]"
-    ],
-    [
-      "(",
-      ")"
-    ],
-    [
-      "{",
-      "}"
-    ],
-    [
-      "<",
-      "</"
-    ],
-    [
-      "<",
-      "/>"
-    ]
-  ],
-  "php.validate.executablePath": "D:/xampp/php/php.exe",
-  "editor.quickSuggestions": {
-    "strings": true
-  },
-  "workbench.colorCustomizations": {
-    "badge.background": "#ff0000"
-  },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "Deepdark Material Theme | Full Black Version",
-  "thunder-client.codeSnippetLanguage": "cs-httpclient",
-  "code-runner.clearPreviousOutput": true,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Monokai Classic",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "css.lint.unknownAtRules": "ignore",
+  "workbench.sideBar.location": "right",
   "code-runner.runInTerminal": true,
-  "diffEditor.ignoreTrimWhitespace": false
+  "editor.autoClosingBrackets": "always",
+  "workbench.colorCustomizations": {}
 }
