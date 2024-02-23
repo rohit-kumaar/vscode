@@ -1,5 +1,4 @@
 {
-  "files.autoSave": "afterDelay",
   "editor.wordWrap": "on",
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
@@ -8,7 +7,6 @@
   "workbench.startupEditor": "none",
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
-  "workbench.editor.enablePreview": false,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
   "javascript.inlayHints.enumMemberValues.enabled": true,
@@ -28,7 +26,7 @@
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "editor.fontFamily": "'cascadia code light',Consolas, 'Courier New', monospace",
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.linkedEditing": true,
   "workbench.iconTheme": "material-icon-theme",
@@ -36,11 +34,31 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "cSpell.userWords": [
+    "auther",
+    "Bhuiya",
+    "Bibhu",
     "chartjs",
+    "ecommerce",
     "esbenp",
     "formik",
+    "gsap",
+    "Kumar",
+    "Lalit",
+    "Lorin",
+    "Lumpsum",
+    "Mallick",
+    "MISRA",
+    "Mulliner",
+    "Niharika",
+    "Prasad",
+    "READONE",
     "reduxjs",
-    "Rohit"
+    "Regd",
+    "Rohit",
+    "rohitkumar",
+    "Rourkela",
+    "SBIMF",
+    "Sundergarh"
   ],
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -52,7 +70,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "Monokai Classic",
+  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -60,5 +78,34 @@
   "workbench.sideBar.location": "right",
   "code-runner.runInTerminal": true,
   "editor.autoClosingBrackets": "always",
-  "workbench.colorCustomizations": {}
+  "workbench.colorCustomizations": {},
+  "git.openRepositoryInParentFolders": "always",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "afterDelay",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "rapidapi.terminalLink.enabled": false,
+  "debug.onTaskErrors": "debugAnyway",
+  "workbench.editor.enablePreview": false,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/css"
+    }
+  ],
+  "window.zoomLevel": 1,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "console-ninja.featureSet": "Community",
+  "terminal.integrated.env.windows": {},
+  "explorer.confirmDragAndDrop": false,
+  "editor.stickyScroll.enabled": false,
 }
