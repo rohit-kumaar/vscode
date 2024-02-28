@@ -42,7 +42,8 @@
 			"picture,",
 			"svg {",
 			"  max-width: 100%;",
-			"  display: block;",
+			"  width: auto;",
+			"  height: auto;",
 			"}",
 			""
 		],
@@ -200,7 +201,7 @@
 		"prefix": "576",
 		"body": [
 			"@media screen and (min-width: 576px) {",
-			"",
+			"$1",
 			"}"
 		],
 		"description": ""
@@ -209,7 +210,7 @@
 		"prefix": "768",
 		"body": [
 			"@media screen and (min-width: 768px) {",
-			"",
+			"$1",
 			"}"
 		],
 		"description": ""
@@ -218,7 +219,7 @@
 		"prefix": "992",
 		"body": [
 			"@media screen and (min-width: 992px) {",
-			"",
+			"$1",
 			"}"
 		],
 		"description": ""
@@ -227,7 +228,7 @@
 		"prefix": "1200",
 		"body": [
 			"@media screen and (min-width: 1200px) {",
-			"",
+			"$1",
 			"}"
 		],
 		"description": ""
@@ -236,7 +237,7 @@
 		"prefix": "1400",
 		"body": [
 			"@media screen and (min-width: 1400px) {",
-			"",
+			"$1",
 			"}"
 		],
 		"description": ""
