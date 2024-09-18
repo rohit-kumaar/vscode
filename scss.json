@@ -215,10 +215,10 @@
 		],
 		"description": ""
 	},
-	"992": {
-		"prefix": "992",
+	"1024": {
+		"prefix": "1024",
 		"body": [
-			"@media screen and (min-width: 992px) {",
+			"@media screen and (min-width: 1024px) {",
 			"$1",
 			"}"
 		],
@@ -233,13 +233,38 @@
 		],
 		"description": ""
 	},
-	"1400": {
-		"prefix": "1400",
+	"1280": {
+		"prefix": "1280",
 		"body": [
-			"@media screen and (min-width: 1400px) {",
+			"@media screen and (min-width: 1280px) {",
 			"$1",
 			"}"
 		],
 		"description": ""
-	}
+	},
+	"1366": {
+		"prefix": "1366",
+		"body": [
+			"@media screen and (min-width: 1366px) {",
+			"$1",
+			"}"
+		],
+		"description": ""
+	},
+	"1440": {
+		"prefix": "1440",
+		"body": [
+			"@media screen and (min-width: 1440px) {",
+			"$1",
+			"}"
+		],
+		"description": ""
+	},
+	"bg-hot-pink": {
+		"prefix": "bgh",
+		"body": [
+		  "background: hotpink;"
+		],
+		"description": ""
+	  }
 }
