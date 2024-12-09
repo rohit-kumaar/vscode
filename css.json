@@ -1,34 +1,127 @@
 {
-  "Border red": {
-    "prefix": "bdr",
-    "body": ["border: 1px solid red;"],
-    "description": "Border red"
-  },
-  "Border green": {
-    "prefix": "bdg",
-    "body": ["border: 1px solid green;"],
-    "description": "Border green"
-  },
-  "Reset": {
-    "prefix": "reset",
-    "body": [
-      "*,",
-      "*::after,",
-      "*::before {",
-      "  padding: 0;",
-      "  margin: 0;",
-      "  box-sizing: border-box;",
-      "}"
-    ],
-    "description": "Reset CSS"
-  },
-  "comment": {
-    "prefix": "comment",
-    "body": [
-      "/* ------------------- */",
-      "/* Reset               */",
-      "/* ------------------- */"
-    ],
-    "description": "comment"
-  }
+	"Border red": {
+		"prefix": "bdr",
+		"body": [
+			"border: 1px solid red;"
+		],
+		"description": "Border red"
+	},
+	"Border green": {
+		"prefix": "bdg",
+		"body": [
+			"border: 1px solid green;"
+		],
+		"description": "Border green"
+	},
+	"Reset": {
+		"prefix": "reset",
+		"body": [
+			"*,",
+			"*::after,",
+			"*::before {",
+			"  padding: 0;",
+			"  margin: 0;",
+			"  box-sizing: border-box;",
+			"}"
+		],
+		"description": "Reset CSS"
+	},
+	"comment": {
+		"prefix": "comment",
+		"body": [
+			"/* ------------------- */",
+			"/* Reset               */",
+			"/* ------------------- */"
+		],
+		"description": "comment"
+	},
+	"576": {
+		"prefix": "576",
+		"body": [
+			"@media screen and (min-width: 576px) {",
+			"",
+			"}"
+		],
+		"description": ""
+	},
+	"768": {
+		"prefix": "768",
+		"body": [
+			"@media screen and (min-width: 768px) {",
+			"",
+			"}"
+		],
+		"description": ""
+	},
+	"992": {
+		"prefix": "992",
+		"body": [
+			"@media screen and (min-width: 992px) {",
+			"",
+			"}"
+		],
+		"description": ""
+	},
+	"1024": {
+		"prefix": "1024",
+		"body": [
+			"@media screen and (min-width: 1024px) {",
+			"",
+			"}"
+		],
+		"description": ""
+	},
+	"1200": {
+		"prefix": "1200",
+		"body": [
+			"@media screen and (min-width: 1200px) {",
+			"",
+			"}"
+		],
+		"description": ""
+	},
+	"1400": {
+		"prefix": "1400",
+		"body": [
+			"@media screen and (min-width: 1400px) {",
+			"",
+			"}"
+		],
+		"description": ""
+	},
+	"Margin top and bottom": {
+		"prefix": "my",
+		"body": [
+			" margin-block: $1;"
+		],
+		"description": "Margin in y-axis"
+	},
+	"Margin left and right": {
+		"prefix": "mx",
+		"body": [
+			" margin-inline: $1;"
+		],
+		"description": "Margin in x-axis"
+	},
+	"Padding top and bottom": {
+		"prefix": "py",
+		"body": [
+			" padding-block: $1;"
+		],
+		"description": "Padding in y-axis"
+	},
+	"Padding left and right": {
+		"prefix": "px",
+		"body": [
+			" padding-inline: $1;"
+		],
+		"description": "Padding in x-axis"
+	},
+	"bg-hot-pink": {
+		"prefix": "bgh",
+		"body": [
+			"background: hotpink;"
+		],
+		"description": ""
+	}
 }
