@@ -1,85 +1,105 @@
 {
-  "Reset JS": {
-    "prefix": "reset",
-    "body": [
-      "/* This is a function that is listening for the DOM to be ready. */",
-      "document.addEventListener(\"DOMContentLoaded\", () => {",
-      "    initApp();",
-      "});",
-      "",
-      "const initApp = () => {",
-      "",
-      "};",
-      "",
-      "// querySelectorAll function",
-      "function qsAll(selector, parent = document) {",
-      "  return [...parent.querySelectorAll(selector)];",
-      "}",
-      "",
-      "// querySelector function",
-      "function qs(selector, parent = document) {",
-      "  return parent.querySelector(selector);",
-      "}"
-    ],
-    "description": "Reset Javascript querySelector and querySelectorAll"
-  },
-  "Get element by getElementsByClassName": {
-    "prefix": "cn",
-    "body": "const $el = document.getElementsByClassName('$el');",
-    "description": "Get dom element by getElementsByClassName"
-  },
-  "Get element by querySelector": {
-    "prefix": "qs",
-    "body": "const $el = document.querySelector('$el');",
-    "description": "Get dom element by querySelector"
-  },
-  "Get element by querySelectorAll": {
-    "prefix": "qsall",
-    "body": "const $el = document.querySelectorAll('$el');",
-    "description": "Get dom element by querySelectorAll"
-  },
-  "Get element by Id": {
-    "prefix": "id",
-    "body": "const $el = document.getElementById('$el');",
-    "description": "Get dom element by id"
-  },
-  "Add Event Listener": {
-    "prefix": "add",
-    "body": ["$1.addEventListener(\"$2\", function(e) {", "  $3", "});"],
-    "description": "Get EventListener"
-  },
-  "const variable": {
-    "prefix": "c",
-    "body": ["const  $1 =  $2; "],
-    "description": "Get const variable "
-  },
-  "calling Function": {
-    "prefix": "cb",
-    "body": ["(element) => {", "      ", "  };"],
-    "description": "calling Function"
-  },
-  "console": {
-    "prefix": "co",
-    "body": ["console.log(`%cDebugger`, `color:red`,$1)"],
-    "description": "console"
-  },
-  "Image Tag": {
-    "prefix": "imgtag",
-    "body": ["<img loading=\"lazy\" src={$1} alt=\"$2\" title=\"$3\"/>"],
-    "description": "Image Tag"
-  },
-  "Link": {
-    "prefix": "Link",
-    "body": ["  <Link to=\"#\">$1</Link>"],
-    "description": "React Link Tag"
-  },
-  "comment": {
-    "prefix": "comment",
-    "body": [
-			"/* -----------------$2 */",
-			"/* $1                  */",
-			"/* -----------------$2 */"
+	"Reset JS": {
+		"prefix": "reset",
+		"body": [
+			"/* This is a function that is listening for the DOM to be ready. */",
+			"document.addEventListener(\"DOMContentLoaded\", () => {",
+			"    initApp();",
+			"});",
+			"",
+			"const initApp = () => {",
+			"",
+			"};",
+			"",
+			"// querySelectorAll function",
+			"function qsAll(selector, parent = document) {",
+			"  return [...parent.querySelectorAll(selector)];",
+			"}",
+			"",
+			"// querySelector function",
+			"function qs(selector, parent = document) {",
+			"  return parent.querySelector(selector);",
+			"}"
 		],
-    "description": "comment"
-  }
+		"description": "Reset Javascript querySelector and querySelectorAll"
+	},
+	"Get element by getElementsByClassName": {
+		"prefix": "cn",
+		"body": "const $el = document.getElementsByClassName('$el');",
+		"description": "Get dom element by getElementsByClassName"
+	},
+	"Get element by querySelector": {
+		"prefix": "qs",
+		"body": "const $el = document.querySelector('$el');",
+		"description": "Get dom element by querySelector"
+	},
+	"Get element by querySelectorAll": {
+		"prefix": "qsall",
+		"body": "const $el = document.querySelectorAll('$el');",
+		"description": "Get dom element by querySelectorAll"
+	},
+	"Get element by Id": {
+		"prefix": "id",
+		"body": "const $el = document.getElementById('$el');",
+		"description": "Get dom element by id"
+	},
+	"Add Event Listener": {
+		"prefix": "add",
+		"body": [
+			"$1.addEventListener(\"$2\", (e) => {",
+			"  $3",
+			"});"
+		],
+		"description": "Get EventListener"
+	},
+	"const variable": {
+		"prefix": "c",
+		"body": [
+			"const  $1 =  $2; "
+		],
+		"description": "Get const variable "
+	},
+	"calling Function": {
+		"prefix": "cb",
+		"body": [
+			"(element) => {",
+			"      ",
+			"  };"
+		],
+		"description": "calling Function"
+	},
+	"console": {
+		"prefix": "co",
+		"body": [
+			"console.log(`%cDebugger`, `color:red`,$1)"
+		],
+		"description": "console"
+	},
+	"Image Tag": {
+		"prefix": "imgtag",
+		"body": [
+			"<img loading=\"lazy\" src={$1} alt=\"$2\" title=\"$3\"/>"
+		],
+		"description": "Image Tag"
+	},
+	"Link": {
+		"prefix": "Link",
+		"body": [
+			"  <Link to=\"#\">$1</Link>"
+		],
+		"description": "React Link Tag"
+	},
+	"comment": {
+		"prefix": "comment",
+		"body": [
+			"/* ---------------$2 */",
+			"/* START : $1        */",
+			"/* ---------------$2 */",
+			"  $3",
+			"/* ---------------$2 */",
+			"/* END   : $1        */",
+			"/* ---------------$2 */"
+		],
+		"description": "comment"
+	}
 }
