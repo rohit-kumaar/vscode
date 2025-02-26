@@ -1,21 +1,24 @@
 {
-  "Ancher Tag": {
-    "prefix": "atag",
-    "body": ["<a href=\"javascript:void(0)\">$1</a>"],
-    "description": "Ancher Tag"
-  },
-  "Image Tag": {
-    "prefix": "imgtag",
-    "body": ["<img loading=\"lazy\" src=\"$1\" alt=\"$2\" title=\"$3\"/>"],
-    "description": "Image Tag"
-  },
-  "comment": {
-    "prefix": "comment",
-    "body": [
-      "/* ------------------- */",
-      "/* Reset               */",
-      "/* ------------------- */"
-    ],
-    "description": "comment"
-  }
+	"Ancher Tag": {
+		"prefix": "atag",
+		"body": [
+			"<a href=\"javascript:void(0)\">$1</a>"
+		],
+		"description": "Ancher Tag"
+	},
+	"Image Tag": {
+		"prefix": "imgtag",
+		"body": [
+			"<img loading=\"lazy\" src=\"$1\" alt=\"$2\" title=\"$3\"/>"
+		],
+		"description": "Image Tag"
+	},
+	"comment": {
+		"prefix": "comment",
+		"body": [
+			"<!-- START : $1 -->",
+			"<!-- END   : $1 -->"
+		],
+		"description": "commented code msg"
+	}
 }
