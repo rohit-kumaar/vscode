@@ -3,7 +3,6 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
   "editor.fontLigatures": true,
-  "editor.formatOnSave": true,
   "workbench.startupEditor": "none",
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
@@ -61,7 +60,7 @@
     "Sundergarh"
   ],
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -70,7 +69,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+  "workbench.colorTheme": "Monokai Classic",
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -86,7 +85,6 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "files.autoSave": "afterDelay",
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
@@ -100,7 +98,7 @@
       "savePath": "/css"
     }
   ],
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0.8,
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
@@ -108,4 +106,17 @@
   "terminal.integrated.env.windows": {},
   "explorer.confirmDragAndDrop": false,
   "editor.stickyScroll.enabled": false,
+  "scm.showOutgoingChanges": "never",
+  "explorer.compactFolders": false,
+  "code-runner.clearPreviousOutput": true,
+  "editor.formatOnSave": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "files.autoSave": "afterDelay",
+  "css.lint.duplicateProperties": "warning",
+  "github.copilot.editor.enableAutoCompletions": true,
 }
