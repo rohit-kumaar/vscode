@@ -14,3 +14,9 @@ TabOut
 Thunder Client
 TODO Highlight
 vscode-icons
+Angular-cli
+C/C++ IntelliSense, debugging, and co
+C/C++ Compile Run
+Code Runner
+Error Lens
+Gitmoji
