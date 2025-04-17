@@ -119,9 +119,13 @@
 	"comment": {
 		"prefix": "comment",
 		"body": [
-			"/* ------------------- */",
-			"/* Reset               */",
-			"/* ------------------- */"
+			"/* -----------$2*/",
+			"/* Start : $1   */",
+			"/* -----------$2*/",
+			"$3",
+			"/* -----------$2*/",
+			"/* End   : $1   */",
+			"/* -----------$2 */"
 		],
 		"description": "comment"
 	},
@@ -263,8 +267,8 @@
 	"bg-hot-pink": {
 		"prefix": "bgh",
 		"body": [
-		  "background: hotpink;"
+			"background: hotpink;"
 		],
 		"description": ""
-	  }
+	}
 }
