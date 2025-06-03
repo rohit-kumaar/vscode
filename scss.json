@@ -202,7 +202,7 @@
 	"Responsive font size": {
 		"prefix": "fs",
 		"body": [
-			" font-size: fs($1, $2);"
+			"font-size: fs($1, $2);"
 		],
 		"description": "Responsive font size"
 	}
