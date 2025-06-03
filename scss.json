@@ -129,78 +129,6 @@
 		],
 		"description": "comment"
 	},
-	"sm": {
-		"prefix": "sm",
-		"body": [
-			"@include media-breakpoint-up(sm) {",
-			"$1",
-			"}",
-		],
-		"description": "Breakpoint sm"
-	},
-	"md": {
-		"prefix": "md",
-		"body": [
-			"@include media-breakpoint-up(md) {",
-			"$1",
-			"}",
-		],
-		"description": "Breakpoint md"
-	},
-	"lg": {
-		"prefix": "lg",
-		"body": [
-			"@include media-breakpoint-up(lg) {",
-			"$1",
-			"}",
-		],
-		"description": "Breakpoint lg"
-	},
-	"xl": {
-		"prefix": "xl",
-		"body": [
-			"@include media-breakpoint-up(xl) {",
-			"$1",
-			"}",
-		],
-		"description": "Breakpoint xl"
-	},
-	"mobile": {
-		"prefix": "mobile",
-		"body": [
-			"@include mobile {",
-			"$1",
-			"}"
-		],
-		"description": "mobile"
-	},
-	"tablet": {
-		"prefix": "tablet",
-		"body": [
-			"@include tablet {",
-			"$1",
-			"}"
-		],
-		"description": "tablet"
-	},
-	"largeTablet": {
-		"prefix": "largeTablet",
-		"body": [
-			"@include largeTablet {",
-			"$1",
-			"}"
-		],
-		"description": "largeTablet"
-	},
-	"laptop": {
-		"prefix": "laptop",
-		"body": [
-			"@include laptop {",
-			"$1",
-			"}"
-		],
-		"description": "laptop"
-	},
 	"576": {
 		"prefix": "576",
 		"body": [
@@ -270,5 +198,12 @@
 			"background: hotpink;"
 		],
 		"description": ""
+	},
+	"Responsive font size": {
+		"prefix": "fs",
+		"body": [
+			" font-size: fs($1, $2);"
+		],
+		"description": "Responsive font size"
 	}
 }
