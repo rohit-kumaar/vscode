@@ -192,12 +192,12 @@
 		],
 		"description": ""
 	},
-	"bg-hot-pink": {
+	"Hot Pink Color": {
 		"prefix": "bgh",
 		"body": [
 			"background: hotpink;"
 		],
-		"description": ""
+		"description": "Hot Pink Color"
 	},
 	"Responsive font size": {
 		"prefix": "fs",
@@ -205,5 +205,12 @@
 			"fs($1, $2)"
 		],
 		"description": "Responsive font size"
+	},
+	"Import Utils": {
+		"prefix": "utils",
+		"body": [
+			"@use 'utilities/__utilities-dir' as *;"
+		],
+		"description": "Import Utils"
 	}
 }
