@@ -9,7 +9,7 @@
 	"Image Tag": {
 		"prefix": "imgtag",
 		"body": [
-			" <img loading=\"lazy\"  src=\"assets/images/$1\" alt=\"$2\" title=\"$3\"/>"
+			" <img loading=\"lazy\"  src=\"assets/images/$1\" alt=\"$2\" title=\"$3\" tabindex=\"-1\"/>"
 		],
 		"description": "Image Tag"
 	},
