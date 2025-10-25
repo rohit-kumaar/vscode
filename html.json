@@ -57,5 +57,41 @@
 			"  </table>"
 		],
 		"description": "Table Snippet"
+	},
+	"Primary Button": {
+		"prefix": "btn-primary",
+		"body": [
+			"<button class=\"button button--primary\">",
+			"$1",
+			"</button>"
+		],
+		"description": "Primary Button"
+	},
+	"Secondary Button": {
+		"prefix": "btn-secondary",
+		"body": [
+			"<button class=\"button button--secondary\">",
+			"$1",
+			"</button>"
+		],
+		"description": "Secondary Button"
+	},
+	"Disable Button": {
+		"prefix": "btn-disable",
+		"body": [
+			"<button class=\"button--disable\">",
+			"$1",
+			"</button>"
+		],
+		"description": "Disable Button"
+	},
+	"Transparent Button": {
+		"prefix": "btn-transparent",
+		"body": [
+			"<button class=\"button--transparent\">",
+			"$1",
+			"</button>"
+		],
+		"description": "Transparent Button"
 	}
 }
